@@ -5,8 +5,11 @@ files:
     destination: /home/ubuntu/geostore-web
 hooks:
   BeforeInstall:
+   - location: scripts/stop.sh
+      timeout: 300
+      runas: root
     - location: scripts/start.sh
-      timeout: 3
+      timeout: 300
       runas: root
 #   ApplicationStop:
 #     - location: scripts/start.sh
