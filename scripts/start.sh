@@ -1,6 +1,5 @@
-cd ..
 ls
 cd src/web/app
 ls
-
-mvn jetty:run
+ls -al
+sudo mvn jetty:run
