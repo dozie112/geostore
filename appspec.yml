@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/geostore
+    destination: /home/ubuntu/geostore-web
 hooks:
   BeforeInstall:
     - location: scripts/start.sh
