@@ -5,7 +5,7 @@ files:
     destination: /var/www/geostore
 hooks:
   BeforeInstall:
-    - location: scripts/start
+    - location: scripts/start.sh
       timeout: 300
       runas: root
 #  ApplicationStop:
