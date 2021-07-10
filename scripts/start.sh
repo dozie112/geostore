@@ -2,4 +2,4 @@ ls
 
 ls
 ls -al
-cp . /home/ubuntu/geostore
+cp -r . /home/ubuntu/geostore
